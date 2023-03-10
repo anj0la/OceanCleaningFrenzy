@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="oceancleaningfrenzy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fish.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trash_pool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trash_pool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="oceancleaningfrenzy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="datafile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="graphics\game_background.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="graphics\tuna_fish.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="graphics\plastic_bottle.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="graphics\eaten_apple.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="graphics\dirty_trash_can.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="graphics\banana_peel.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="graphics\game_banner.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="graphics\game_bottom.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="graphics\help_module.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="graphics\end_background.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="graphics\start_background.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="graphics\diver_sprite_left_swim_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="graphics\diver_sprite_left_swim_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="graphics\diver_sprite_right_swim_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="graphics\diver_sprite_right_swim_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="graphics\ocean_cleaning_frenzy_logo.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="graphics\pencil.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="banana_peel.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="graphics\font_body.pcx" />
+    <None Include="graphics\font_header.pcx" />
+    <None Include="graphics\font_subheader.pcx" />
+    <None Include="graphics\score_timer_font.pcx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sounds\under-water-sounds-while-scuba-diving.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="sounds\tropical-summer-music.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="sounds\tiny-splash.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="sounds\negative_beeps.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OceanCleaningFrenzy.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
